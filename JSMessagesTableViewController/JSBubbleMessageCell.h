@@ -35,6 +35,7 @@
 
 #import <UIKit/UIKit.h>
 #import "JSBubbleView.h"
+#import "UIImageView+AFNetworking.h" 
 
 #define DATE_LABEL_HEIGHT 12.0f
 

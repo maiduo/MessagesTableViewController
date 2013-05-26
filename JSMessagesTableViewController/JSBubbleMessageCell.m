@@ -158,8 +158,8 @@
 }
 - (void) setPhoto:(NSString *)photoUrl
 {
-    UIImage *image=[UIImage imageNamed:photoUrl];
-    self.photoView.image=image;
+    [self.photoView setImageWithURL:[NSURL URLWithString:photoUrl] placeholderImage:[UIImage imageNamed:@"default_avatar.jpg"]];
+    
 }
 
 - (void)setTimestamp:(NSDate *)date
